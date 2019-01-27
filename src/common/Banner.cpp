@@ -24,12 +24,18 @@ void Trinity::Banner::Show(char const* applicationName, void(*log)(char const* t
     log(Trinity::StringFormat("%s (%s)", GitRevision::GetFullVersion(), applicationName).c_str());
     log("<Ctrl-C> to stop.\n");
     log("                ");
-    log("                ");
-    log("                ");
-    log("                ");
-    log("                ");
-    log("                ");
-    log("                ");
+    log("      ██████╗ ██████╗ ██████╗ ███████╗");
+    log("     ██╔════╝██╔═══██╗██╔══██╗██╔═══╝");
+    log("     ██║     ██║   ██║██████╔╝█████╗");  
+    log("     ██║     ██║   ██║██╔══██╗██╔══╝");  
+    log("     ╚██████╗╚██████╔╝██║  ██║███████╗");
+    log("      ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝\n");   
+    log("              ");
+    log("               ");
+    log("               ");
+    log("              ");
+    log("              ");
+    log("              ");
     log("                                D A R K I N ___ C O R E  ");
     log("http://TrinityCore.org                                  \n");
 
