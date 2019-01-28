@@ -100,7 +100,7 @@ Read file [THANKS](THANKS).
 
 ## Links
 
-* [Website](https://www.ashamane.com)
+* [Website](https://www.trinity.com)
 * [Wiki](https://www.trinitycore.info)
-* [Forums](http://forum.ashamane.com/)
+* [Forums](http://forum.darkincore.com/)
 * [TrinityCore](https://www.trinitycore.org/)
