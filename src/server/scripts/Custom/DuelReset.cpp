@@ -149,7 +149,7 @@ class DuelResetScript : public PlayerScript
 class DuelResetWorld : public WorldScript
 {
 public:
-    DuelResetWorld() : WorldScript("DuelResetWorld") { }
+    DuelResetWorld() : WorldScript("DuelResetWorld") { }     //Modific Duelreset world Script
 
     void OnBeforeConfigLoad(bool reload) override
     {
