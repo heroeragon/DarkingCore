@@ -1232,6 +1232,8 @@ class spell_dk_howling_blast_aoe : public SpellScript
     void HandleOnHit(SpellEffIndex /*effIndex*/)
     {
         if (Unit* target = GetHitUnit())
+         if (target->GetGUID() == tar)
+                PreventHitDamage();
         {
 			if (target->GetGUID() == tar)
 				PreventHitDamage();
